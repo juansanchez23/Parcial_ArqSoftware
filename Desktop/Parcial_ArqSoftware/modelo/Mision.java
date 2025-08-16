@@ -10,6 +10,10 @@ public class Mision {
         this.rango = rango;
         this.recompensa = recompensa;
     }
+    
+    public String getNombre() { return nombre; }
+    public String getRango() { return rango; }
+    public int getRecompensa() { return recompensa; }
 
     @Override
     public String toString() {
