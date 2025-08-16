@@ -31,6 +31,7 @@ public class Main {
             .addJutsu("Katon: Gokakyu")
             .build();
 
+        //Uso Factory para Iwaga    
         NinjaFactory IwagaFactory = new factory.IwagaFactory();
         Ninja ninjaBaseIwaga = IwagaFactory.crearNinja("Ninja de la aldea de la piedra", "Genin");
         // Uso del builder para Iwaga
