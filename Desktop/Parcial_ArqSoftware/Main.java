@@ -232,6 +232,8 @@ private static void crearNinjaPersonalizado() {
         System.out.print("Cantidad de chakra que utiliza: ");
         int costChakra = sc.nextInt();
         builder.addJutsu(new Jutsu(jName, poder, tipo, costChakra));
+        System.out.println("Jutsu creado correctamente")
+        sc.nextLine();
     }
 
     Ninja nuevo = builder.build();
