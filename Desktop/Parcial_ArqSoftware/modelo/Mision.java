@@ -1,6 +1,13 @@
 package modelo;
 
-public class Mision {
+import visitor.Exportable;
+import visitor.Visitor;
+
+public class Mision implements Exportable{
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.exportar(this);
+    }
     private String nombre;
     private String rango; // D, C, B, A, S
     private int recompensa;

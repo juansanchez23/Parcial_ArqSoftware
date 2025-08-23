@@ -1,0 +1,20 @@
+Misión: Recolectar hierbas
+Rango: D
+Recompensa: 100
+------------------------
+Misión: Proteger al puente
+Rango: C
+Recompensa: 500
+------------------------
+Misión: Capturar ninja renegado
+Rango: B
+Recompensa: 1200
+------------------------
+Misión: Espionaje en otra aldea
+Rango: A
+Recompensa: 2000
+------------------------
+Misión: Eliminar a Akatsuki
+Rango: S
+Recompensa: 5000
+------------------------

@@ -1,6 +1,0 @@
-[EXPORTANDO NINJA] Ninja{nombre='Naruto', rango='Genin', ataque=70, defensa=60, chakra=80, aldea='Konoha', jutsus=[Rasengan, Kage Bunshin]}
-[EXPORTANDO MISION] Mision{nombre='Proteger al puente', rango='C', recompensa=500}
-[EXPORTANDO NINJA] Ninja{nombre='Naturo', rango='Genin', ataque=35, defensa=40, chakra=40, aldea='Konoha', jutsus=[Rasengan, Kage Bunshin]}
-[EXPORTANDO MISION] Mision{nombre='Proteger al puente', rango='C', recompensa=500}
-[EXPORTANDO NINJA] Ninja{nombre='Gaara', rango='Jonin', ataque=65, defensa=55, chakra=75, aldea='Suna', jutsus=[Sabaku Kyuu, Sabaku Taiso]}
-[EXPORTANDO MISION] Mision{nombre='Eliminar a Akatsuki', rango='A', recompensa=5000}

@@ -3,7 +3,7 @@ package visitor;
 import modelo.Ninja;
 import modelo.Mision;
 
-import java.io.BufferedWriter;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -16,21 +16,30 @@ public class ExportVisitorArchivo implements Visitor {
 
     @Override
     public void exportar(Ninja ninja) {
-        escribirEnArchivo("[EXPORTANDO NINJA] " + ninja.toString());
+    try (FileWriter writer = new FileWriter(archivo, true)) {
+            writer.write("Ninja: " + ninja.getNombre() + "\n");
+            writer.write("Rango: " + ninja.getRango() + "\n");
+            writer.write("Ataque: " + ninja.getAtaque() + "\n");
+            writer.write("Defensa: " + ninja.getDefensa() + "\n");
+            writer.write("Chakra: " + ninja.getChakra() + "\n");
+            writer.write("Aldea: " + ninja.getAldea() + "\n");
+            writer.write("Jutsus: " + ninja.getJutsus() + "\n");
+            writer.write("Dinero: " + ninja.getDinero() + "\n");
+            writer.write("------------------------\n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-
     @Override
     public void exportar(Mision mision) {
-        escribirEnArchivo("[EXPORTANDO MISION] " + mision.toString());
+    try (FileWriter writer = new FileWriter(archivo, true)) {
+        writer.write("Misión: " + mision.getNombre() + "\n");
+        writer.write("Rango: " + mision.getRango() + "\n");
+        writer.write("Recompensa: " + mision.getRecompensa() + "\n");
+        writer.write("------------------------\n");
+    } catch (IOException e) {
+        e.printStackTrace();
     }
 
-    // Método privado que escribe en el archivo
-    private void escribirEnArchivo(String texto) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(archivo, true))) {
-            writer.write(texto);
-            writer.newLine();
-        } catch (IOException e) {
-            System.out.println("Error al escribir en el archivo: " + e.getMessage());
-        }
     }
 }

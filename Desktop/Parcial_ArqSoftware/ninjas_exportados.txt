@@ -1,0 +1,27 @@
+Ninja: Sebas
+Rango: Genin
+Ataque: 75
+Defensa: 55
+Chakra: 75
+Aldea: Suna
+Jutsus: [Bunshinjutsu (Neutral, poder:40, coste:10), Kawarimi no Jutsu (Tierra, poder:40, coste:10)]
+Dinero: 400
+------------------------
+Ninja: Alaix
+Rango: Kage
+Ataque: 305
+Defensa: 300
+Chakra: 300
+Aldea: Suna
+Jutsus: [Destrozador (Tierra, poder:300, coste:100)]
+Dinero: 0
+------------------------
+Ninja: Naruto
+Rango: Genin
+Ataque: 30
+Defensa: 30
+Chakra: 30
+Aldea: Konoha
+Jutsus: [Bunshinjutsu (Neutral, poder:40, coste:10), Kawarimi no Jutsu (Tierra, poder:40, coste:10)]
+Dinero: 0
+------------------------
